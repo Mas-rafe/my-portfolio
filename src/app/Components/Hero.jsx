@@ -4,10 +4,14 @@ import { TypeAnimation } from "react-type-animation";
 import { motion } from "framer-motion";
 import { FaFacebook, FaLinkedin, FaGithub, FaTwitter, FaYoutube } from "react-icons/fa";
 
+;
+
+
 export default function Hero() {
   return (
   <section className="relative min-h-screen md:h-screen flex items-center justify-center  overflow-hidden  text-gray-800">
       {/* Animated Gradient Background */}
+      
       <div className="absolute inset-0 bg-gradient-to-r from-yellow-50 via-lime-50 to-green-100 bg-[length:400%_400%] animate-[gradientMove_15s_ease_infinite]" />
 
       {/* Blurred Glowing Orbs */}
@@ -24,9 +28,11 @@ export default function Hero() {
           transition={{ duration: 0.8 }}
         >
           <div>
-            <h1 className="text-4xl md:text-6xl font-bold text-gray-900">
+            
+              <h1 className="text-4xl md:text-6xl font-bold text-gray-900">
               Masrafe Khan
             </h1>
+            
 
             <TypeAnimation
               sequence={[
