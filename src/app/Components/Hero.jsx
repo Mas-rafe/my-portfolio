@@ -55,11 +55,11 @@ export default function Hero() {
 
           {/* Social Icons */}
           <div className="flex justify-center md:justify-start space-x-5 text-2xl mt-3">
-            <a href="#" className="hover:text-indigo-600 transition"><FaFacebook /></a>
+            <a href="" className="hover:text-indigo-600 transition"><FaFacebook /></a>
             <a href="#" className="hover:text-sky-500 transition"><FaTwitter /></a>
-            <a href="#" className="hover:text-blue-600 transition"><FaLinkedin /></a>
+            <a href="https://www.linkedin.com/in/masrafe-efte/" className="hover:text-blue-600 transition"><FaLinkedin /></a>
             <a href="#" className="hover:text-red-500 transition"><FaYoutube /></a>
-            <a href="#" className="hover:text-gray-900 transition"><FaGithub /></a>
+            <a href="https://github.com/Mas-rafe" className="hover:text-gray-900 transition"><FaGithub /></a>
           </div>
 
           <button className="mt-6 px-8 py-3 bg-gradient-to-r from-green-700 to-green-400 text-white rounded-full shadow-md hover:scale-105 transition-transform duration-300">
