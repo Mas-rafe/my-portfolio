@@ -30,7 +30,7 @@ export default function Hero() {
           <div>
             
               <h1 className="text-4xl md:text-6xl font-bold text-gray-900">
-              Masrafe Khan
+              Masrafe Khan.
             </h1>
             
 
