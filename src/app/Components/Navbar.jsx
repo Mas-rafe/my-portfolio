@@ -21,7 +21,7 @@ export default function Navbar() {
       
           
            <a href="/" className="text-xl font-bold text-slate-500  tracking-tighter">
-            <span className="text-2xl font-extrabold">M</span>asrafe...
+            <span className="text-2xl font-extrabold">M</span>asrafe....
           </a>
          
         </div>
